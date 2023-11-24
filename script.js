@@ -9,8 +9,6 @@ function reverseString(str) {
     }
     return newString;
 }
-
-// take input from the user
 const string = prompt('Enter a string: ');
 
 const result = reverseString(string);
